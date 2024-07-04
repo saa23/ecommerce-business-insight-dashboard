@@ -17,7 +17,7 @@ Many information and insight we can gain based on the data,such as but not limit
 
 Here is the source link: [clik here](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
 
-File or Tables in the datasets are following:
+File or tables in the datasets are following:
 1. olist_customer_dataset.csv
 2. olist_geolocation_dataset.csv
 3. olist_order_items_dataset.csv
@@ -42,7 +42,7 @@ Since the dataset is consist of files or here we can tables, it will better if w
 
 
 # 3. Result Previews and Insights
-## 3.1. Overview Display
+## 3.1. Overview
 ![overview-display](./images/overview-dashboard.png)
 
 The figure above is the dashboard.
@@ -102,6 +102,14 @@ The figure above, tells some insights:
 
 ## 3.4. Transaction Amount by Map
 ![total-amount-map](./images/total-amount-map.png)
+- 
+The map and treemap chart show visualization of total transaction amount by states location of customers.
+
+The darker the color, the higher the transaction amount in that state and vice versa.
+
+Both yiels interesting insights. Those are:
+- *Sao Paulo* dominating the contribute by around 30% of total transaction amount in Olist.
+- Overall, the most contributing states are in around Eastern and Southern Brazil such as: *Sao Paulo, Minas Gerais, Rio Grande do Sul, Rio de Janeiro, Parana, and Bahia*. This indicates, there is high demand and high purchasing power in Eastern and Southern Brazil. Whereas in the Northern Brazil that that is not the case since the total transaction amount is much smaller.
 
 ## 3.5. Transaction Amount by Product
 ![total-amount-product](./images/amount-by-product.gif)
