@@ -50,12 +50,12 @@ The figure above is the dashboard.
 It comprises some sections based on insight context. They are as follows:
 1. Card Metrics
 2. Transactions by Payment Method
-3. Transactions by State
+3. Transactions by State (in maps)
 4. Transactions by Product Category
 
 All of them will be discussed in the following sections.
 
-## 3.2. Card Metric
+## 3.2. Card Metrics
 ![kpi-card](./images/kpi-card.png)
 
 This part, give insight about high-level business metrics.
@@ -100,7 +100,7 @@ The figure above, tells some insights:
 - the most commonly used payment method is *boleto* and *credit card*. Both significantly dominated over the other two: debit card and voucher.
 - There is positive trend regarding total purchase amount over the time from 2016 to 2018. This indicates that company has positive growth. 
 
-## 3.4. Transaction Amount by Map
+## 3.4. Transactions in Maps
 ![total-amount-map](./images/total-amount-map.png)
 - 
 The map and treemap chart show visualization of total transaction amount by states location of customers.
@@ -111,7 +111,7 @@ Both combined yield interesting insights. Those are:
 - *Sao Paulo* dominating the contribute by around 30% of total transaction amount in Olist.
 - Overall, the most contributing states are in around Eastern and Southern Brazil such as: *Sao Paulo, Minas Gerais, Rio Grande do Sul, Rio de Janeiro, Parana, and Bahia*. This indicates, there is high demand and high purchasing power in Eastern and Southern Brazil. Whereas in the Northern Brazil that that is not the case since the total transaction amount is much smaller.
 
-## 3.5. Transaction Amount by Product
+## 3.5. Transactions by Product Category
 ![total-amount-product](./images/amount-by-product.gif)
 
 In this section, there are some interactive features to gain insights dynamically to help decide the suitable business strategy related to transaction by product category.
