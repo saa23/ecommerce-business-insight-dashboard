@@ -107,11 +107,25 @@ The map and treemap chart show visualization of total transaction amount by stat
 
 The darker the color, the higher the transaction amount in that state and vice versa.
 
-Both yiels interesting insights. Those are:
+Both combined yield interesting insights. Those are:
 - *Sao Paulo* dominating the contribute by around 30% of total transaction amount in Olist.
 - Overall, the most contributing states are in around Eastern and Southern Brazil such as: *Sao Paulo, Minas Gerais, Rio Grande do Sul, Rio de Janeiro, Parana, and Bahia*. This indicates, there is high demand and high purchasing power in Eastern and Southern Brazil. Whereas in the Northern Brazil that that is not the case since the total transaction amount is much smaller.
 
 ## 3.5. Transaction Amount by Product
 ![total-amount-product](./images/amount-by-product.gif)
 
+In this section, there are some interactive features to gain insights dynamically to help decide the suitable business strategy related to transaction by product category.
 
+The top 10 most purchased product categories as below:
+1. Watches gifts
+2. Sports leisure
+3. Health beauty
+4. Auto
+5. Bed bath table
+6. Computers accessories
+7. Housewares
+8. Furniture decor
+9. Garden tools
+10. Toys
+
+The topmost chart also can help to monitor based on product category filter which states have the average transaction amount higher than the overall average amount (green-colored bar) and which states which have not (grey-colored bar). Of course, this feature can help in several business strategy approaches such as marketing campaigns for vouchers or promotions for certain products in specific states.
