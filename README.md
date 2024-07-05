@@ -1,6 +1,6 @@
 # ecommerce-business-insight-dashboard
 
-This project objective is to gain some insights of ecommerce dataset and utilize excel's features to build an interactive and dynamic dashboard.
+This project objective is to gain some insights of ecommerce dataset and utilize features of Excel 365 to build an interactive and dynamic dashboard.
 
 # 1. Dataset
 The original source dataset is public datasets from Kaggle. It is based on transactions data made at Olist Store, A Brazilian ecommerce, at period **15 October 2016 - 31 August 2018** (around two years). Olist is the largest department store in Brazilian marketplace, therefore the dataset comes with transactions of various type of product categories that include up to 71 types.
