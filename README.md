@@ -29,6 +29,7 @@ File or tables in the datasets are following:
 9. product_category_name_translation.csv
 
 And here is the ERD based on the original source:
+
 ![erd-schema](./images/erd.png)
 
 ## Business Context
@@ -38,8 +39,36 @@ After a customer purchases the product from Olist Store a seller gets notified t
 
 
 # 2. Methods and Processes
-Since the dataset is consist of files or here we can tables, it will better if we denormalized it so that there are only much less tables used to build the interactive dashboard.
+Since the dataset is consist of several files or tables, it is good to denormalize it so that make it in more simple by focusing to only few new tables used to build the interactive dashboard.
 
+In the project, we created four denormalized tables:
+1. orders
+
+The core transaction data merged with many original tables related to customer, seller, the locations (state and city), product, purchase date, purchase amount, freight amount, total transaction amount.
+
+2. order_payments
+
+Basically a merged table between **olist_orders and olist_payments tables**.
+
+To simplify the analysis and visualization process related to *transactions by payment method*.
+
+3. order_reviews
+
+Essentially a merged table between **olist_orders and olist_order_reviews tables**.
+
+To simplify the analysis and visualization process related to *customer reviews and the scores*.
+
+4. order_states
+
+It is a transformed tables which originally from **olist_orders table**.
+
+It is to simplify the analysis and visualization process related to *transactions by state location*.
+
+
+Besides, we added some new columns to make the development easier:
+- translated version of **product_category** (in English) in orders table
+- **order_purchase_month** in order_payments table
+- states and cities location using their full name instead of codes in order_reviews, order_states, and orders tables
 
 # 3. Result Previews and Insights
 ## 3.1. Overview
