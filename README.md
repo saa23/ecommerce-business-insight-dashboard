@@ -70,6 +70,8 @@ Besides, we added some new columns to make the development easier:
 - **order_purchase_month** in order_payments table
 - states and cities location using their full name instead of codes in order_reviews, order_states, and orders tables
 
+All the rest is using features of excel to build the visualization and interactivity. Last but not least arranged the layout well to build a dashboard which is tidy, compact, and pleasing to the eye.
+
 # 3. Result Previews and Insights
 ## 3.1. Overview
 ![overview-display](./images/overview-dashboard.png)
