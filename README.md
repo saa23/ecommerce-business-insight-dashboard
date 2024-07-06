@@ -70,6 +70,8 @@ Besides, we added some new columns to make the development easier:
 - **order_purchase_month** in order_payments table
 - states and cities location using their full name instead of codes in order_reviews, order_states, and orders tables
 
+At the data processing stage (tab sheet *`warehouse`* in `ecommerce-dashboard.xlsx` file), single cell reporting is demonstrated by utilizing LET and HSTACK functions as the core functions while also using other functions such as: SUMIFS, COUNTIFS, AVERAGEIFS, etc.
+
 All the rest is using features of excel to build the visualization and interactivity. Last but not least arranged the layout well to build a dashboard which is tidy, compact, and pleasing to the eye.
 
 # 3. Result Previews and Insights
