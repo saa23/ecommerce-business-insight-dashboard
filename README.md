@@ -167,4 +167,4 @@ The topmost chart (<u>*Avg Purchased Amount State*</u>) also can help to monitor
 As for chart <u>*Total Purchased Amount*</u> (bottommost), the interactive feature was created by scroll bar. The scoll bar located in menu Developer tab - Insert - Scroll Bar.
 But beforehand, it is required to active the Developer tab by access File - Options - Customize Ribbon - then choose Developer.
 
-All of those features can help in several business strategy approaches such as marketing campaigns for vouchers or promotions for certain products in specific states.
+All of those features can help in several business strategies such as marketing campaigns for vouchers or promotions of certain products in specific states.
