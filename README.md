@@ -161,4 +161,9 @@ The top 10 most purchased product categories as below:
 9. Garden tools
 10. Toys
 
-The topmost chart also can help to monitor based on product category filter which states have the average transaction amount higher than the overall average amount (green-colored bar) and which states which have not (grey-colored bar). Of course, this feature can help in several business strategy approaches such as marketing campaigns for vouchers or promotions for certain products in specific states.
+The topmost chart (<u>*Avg Purchased Amount State*</u>) also can help to monitor based on product category filter which states have the average transaction amount higher than the overall average amount (green-colored bar) and which states which have not (grey-colored bar). The interactive feature was created by data validation with reference the top 10 products mentioned above.
+
+As for chart <u>*Total Purchased Amount*</u> (bottommost), the interactive feature was created by scroll bar. The scoll bar located in menu Developer tab - Insert - Scroll Bar.
+But beforehand, it is required to active the Developer tab by access File - Options - Customize Ribbon - then choose Developer.
+
+All of those features can help in several business strategy approaches such as marketing campaigns for vouchers or promotions for certain products in specific states.
