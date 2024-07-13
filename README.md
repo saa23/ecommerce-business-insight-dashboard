@@ -105,6 +105,7 @@ It tells about:
 9. customer review overall and average numbers
 
 <br/>
+
 Using some common knowledges, here are how to interpret the numbers in this section:
 - *the higher total transaction or average transaction amount the better*
 
